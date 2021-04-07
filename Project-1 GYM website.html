@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Project</title>
+</head>
+<!-- <link rel="stylesheet" href="GYM project/GYM Project(CSS).css"> -->
+<style>
+    body {
+
+        /* font-family:'Baloo Bhai', cursive ; */
+        /* margin: 0px; */
+        /* padding: 0px; */
+        background-image: url('bg image.jpg');
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        color: aliceblue;
+
+    }
+
+    .left {
+        /* border: 2px solid rgb(202, 169, 169); */
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 18px;
+
+    }
+
+    .left img {
+        width: 17%;
+        height: 17%;
+
+    }
+
+    .mid {
+        /* border:2px solid wheat; */
+        display: inline-block;
+        margin: 18px 410px auto;
+        width: 45%;
+    }
+
+    .right {
+        /* border :2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+
+
+    }
+
+    .right img {
+        position: fixed;
+        bottom: 0px;
+        right: 0%;
+        top: 50%;
+
+    }
+
+
+    .navbar {
+        display: inline;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .navbar li a {
+        padding: 10px;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        font-style: normal;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        background-color: rgb(31, 33, 34);
+        border-radius: 10px;
+        color: rgb(144, 227, 230);
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 10px;
+        color: aliceblue;
+        background-color: rgb(95, 94, 49);
+        border-radius: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 2px 14px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(13, 55, 56);
+    }
+
+    .container {
+        /* border: 2px solid rgb(137, 216, 230); */
+        border-radius: 20px;
+        margin: 80px 50px;
+        width: 40%;
+        padding: 50px;
+    }
+
+    .container h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left;
+        padding: 2%;
+        margin-left: 25%;
+        color: rgb(185, 200, 209);
+    }
+
+    .formgroup input {
+        font-size: medium;
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 5px;
+        color: rgb(4, 12, 9);
+        background-color: rgb(171, 213, 238);
+        border-radius: 10px;
+    }
+
+    .container button {
+        display: block;
+        margin-left: 300px;
+
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <!-- for logo -->
+            <img src="logo (2).png" alt="">
+        </div>
+        <div class="mid">
+            <!-- for navbar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- for buttons -->
+            <button class="btn">CALL</button>
+            <button class="btn">BACK</button>
+            <img src="Facebook Post 940x788 px.png" alt="" width="30%">
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join Us....NOW!! </h2>
+        <form action="noaction.php"></form>
+        <div class="formgroup">
+            <input type="text" name="" id="" placeholder="Enter your name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" id="" placeholder="Enter your age">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" id="" placeholder="Enter your address">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" id="" placeholder="Enter your phone number">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="" id="" placeholder="Enter your e-mail">
+        </div>
+        <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+
+</html>
